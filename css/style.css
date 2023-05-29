@@ -124,6 +124,24 @@ border-width: medium;
 
 }
 
+/*---------------------------------------SCROLLBAR--------------------------------*/
+
+ #letra_cancion::-webkit-scrollbar {
+    -webkit-appearance:none;
+} 
+
+#letra_cancion::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+
+#letra_cancion::-webkit-scrollbar-thumb {
+    background-image: url(../resources/mipresentacion/oro.jpg);
+    border-radius: 50px;
+    border: 2px solid #ffbf00;
+}
+
+
 /* ----------------------------------DIBUJO---------------------------------- */
 
 #nariz{
