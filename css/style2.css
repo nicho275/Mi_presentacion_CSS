@@ -1,0 +1,62 @@
+/*------------------------------------FONTS------------------------------*/
+
+@font-face{
+
+    font-family: "Adventure";
+    src: url(./fonts/Adventure.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "Personal_Services";
+    src: url(./fonts/Personal_Services.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Astronomus";
+    src: url(./fonts/Astronomus.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal;
+    
+}
+
+/*-----------------------------PONER FONTS A TEXTO-------------------------*/
+
+
+th{
+    font-family: "Personal_Services";
+    color:ghostwhite;
+  
+}
+
+ td{
+    font-family: "Astronomus";
+    font-size: 20px;
+    color:#C0FFF8;
+}
+
+/*--------------------------------TABLA----------------------------------*/
+
+.table{
+    border-collapse:collapse;
+    
+    
+    border: 4px solid white;
+    border-color: white;
+}
+
+
+/*----------------------------FONDO-----------------------------------------*/
+
+
+body{
+
+    background-image: url(../resources/mipresentacion/espacio.jpg);
+    background-size:1430px 1300px;
+    
+ 
+
+}
