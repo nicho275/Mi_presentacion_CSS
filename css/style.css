@@ -1,0 +1,240 @@
+/*------------------------------------FONTS------------------------------*/
+
+@font-face{
+
+    font-family: "Adventure";
+    src: url(../fonts/Adventure.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "Personal_Services";
+    src: url(../fonts/Personal_Services.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Astronomus";
+    src: url(../fonts/Astronomus.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal;
+    
+}
+
+
+/*----------------------------FONDO-----------------------------------------*/
+
+
+body{
+
+    background-image: url(../resources/mipresentacion/espacio.jpg);
+    
+    background-size:1430px 1300px;
+ 
+
+}
+
+/*-----------------------------PONER FONTS A TEXTO-------------------------*/
+
+
+.titulos{
+    font-family: "Personal_Services";
+    color:ghostwhite;
+  
+}
+.texto th{
+    font-family: "Adventure";
+    font-size: 30px;
+    color:aqua;
+}
+ 
+
+.texto strong{
+    font-family: "Adventure";
+    font-size: 30px;
+    color:aqua;
+}
+
+.texto{
+    font-family: "Astronomus";
+    font-size: 20px;
+    color:#C0FFF8;
+}
+
+/*----------------------------------LISTAS-----------------------------------*/
+
+#flex2~li{
+    width: calc(33.33% - 50);
+}
+
+#flex3{
+    display:flex;
+    gap:50px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+#flex4{
+    display:flex;
+    gap:50px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+#flex1{
+
+    display:flex;
+    gap:50px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+#flex2{
+    display:flex;
+    gap:50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*--------------------------------BORDE DE TABLA-------------------------*/
+
+#table{
+    border-collapse:collapse;
+}
+
+
+.tabla{
+
+border-color:aqua;
+border-style:dotted;
+border-width: medium;
+
+}
+
+/* ----------------------------------DIBUJO---------------------------------- */
+
+#nariz{
+    width: 0px; 
+    
+    height: 0px; 
+    border-left: 50px solid transparent;
+    border-top: 100px solid #f0ad4e;
+    border-right: 50px solid transparent;
+    position: absolute;
+    top: 60%;
+    left: 37%;
+    right:50%;
+    bottom: 50%;
+}
+
+#cara{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+
+    width: 350px;
+    height: 350px; 
+   border-radius:50%;
+   border-color:black;
+   border: 7px solid black;
+   background-color: black;
+   margin: 0 auto;
+   position: relative;
+}
+
+#cara1_blanca{
+    width: 330px;
+    height: 255px;
+    border-color: white;
+    border: 7px solid white;
+    background-color: white;
+    position:relative;
+    shape-outside: ellipse(20% 50%);
+    clip-path: ellipse(20% 50%);
+    right:435px;
+    top:71px;
+
+
+}
+
+#cara2_blanca{
+
+    width: 330px;
+    height: 255px;
+    border-color: white;
+    border: 7px solid white;
+    background-color: white;
+    position:relative;
+    shape-outside: ellipse(20% 50%);
+    clip-path: ellipse(20% 50%);
+    right:545px; 
+    top:71px; 
+}
+
+#pupila1{
+    width: 150px;
+    height: 80px;
+    border-color: rgb(0, 0, 0);
+    border: 7px solid rgb(0, 0, 0);
+    background-color: black;
+    position:relative;
+    shape-outside: ellipse(20% 50%);
+    clip-path: ellipse(20% 50%);
+left: 90px;
+top: 30px;
+}
+
+#pupila2{
+    width: 150px;
+    height: 80px;
+    border-color: rgb(0, 0, 0);
+    border: 7px solid rgb(0, 0, 0);
+    background-color: black;
+    position:relative;
+    shape-outside: ellipse(20% 50%);
+    clip-path: ellipse(20% 50%);
+left: 90px;
+top: 30px;
+}
+
+#ojo1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border-color: aqua;
+    border: 7px solid aqua;
+    background-color: aqua;
+    position:relative;
+    left: 71px;
+    top: 10px;
+}
+
+#ojo2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border-color: aqua;
+    border: 7px solid aqua;
+    background-color: aqua;
+    position:relative;
+    left: 71px;
+    top: 10px;
+
+}
+
+#blanco{
+
+    width:310px;
+    height: 180px;
+    border-color: white;
+    transform: translate(-50%, -50%);
+    border-radius: 0 0 50% 50%;
+    border: 7px solid white;
+    background-color: white;
+    top:270px;
+    left: 180px;
+    position:relative;
+
+}
