@@ -24,6 +24,7 @@
 }
 
 
+
 /*----------------------------FONDO-----------------------------------------*/
 
 
@@ -44,6 +45,12 @@ body{
     color:ghostwhite;
   
 }
+.titulos::first-letter{ 
+    color: red;
+    font-size: 175%;
+}
+
+
 .texto th{
     font-family: "Adventure";
     font-size: 30px;
@@ -65,9 +72,7 @@ body{
 
 /*----------------------------------LISTAS-----------------------------------*/
 
-#flex2~li{
-    width: calc(33.33% - 50);
-}
+
 
 #flex3{
     display:flex;
@@ -91,12 +96,7 @@ body{
     justify-content: center;
 }
 
-#flex2{
-    display:flex;
-    gap:50px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
 
 /*--------------------------------BORDE DE TABLA-------------------------*/
 
@@ -110,6 +110,17 @@ body{
 border-color:aqua;
 border-style:dotted;
 border-width: medium;
+
+}
+
+/*--------------------------------------OVERFLOW-------------------------------*/
+
+#letra_cancion{
+    overflow: auto;
+    width: 250px;
+    height: 300px;
+    position:relative;
+    margin: 0 auto;
 
 }
 
